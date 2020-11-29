@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".playas.Playa_Escondida">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playa_escondida"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/playa_escondida"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/es_conocida_como_una_de_las_playas_m_s_bonitas_de_veracruz_y_se_ubica_en_la_regi_n_m_s_al_norte_de_los_tuxtla_es_una_incre_ble_playa_virgen_que_se_ubica_entre_dos_acantilados_y_que_no_es_muy_visitada_se_accede_a_trav_s_de_una_serie_de_escalones_y_el_terreno_que_rodea_la_playa_es_de_propiedad_privada_tambi_n_se_puede_llegar_por_lancha_abordando_en_montep_o_se_extiende_por_varios_kil_metros_y_es_perfecta_para_quienes_desean_estar_en_contacto_con_la_naturaleza_no_se_aconseja_visitar_en_invierno_por_las_tormentas_que_asolan_el_lugar_y_no_tiene_opciones_de_alojamiento_aunque_en_temporada_de_verano_se_puede_acampar_y_hay_restaurantes_de_estilo_r_stico_que_ofrecen_platillos_t_picos_veracruzanos_como_la_jaiba_al_chipotle_o_las_mojarras_al_mojo_de_ajo_se_encuentra_a_110_km_de_veracruz_cercana_a_los_tuxtla_por_carretera_a_playa_azul_rumb_a_sontecomapan_la_ruta_m_s_r_pida"/>
+
+    </ScrollView>
+
+</LinearLayout>

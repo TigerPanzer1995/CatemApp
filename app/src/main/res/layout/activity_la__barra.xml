@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".playas.La_Barra">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/la_barra_de_sontecomoapan"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/playa_barra_de_sontecomapan"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="La Barra de Sontecomapan, favorita entre los turistas, aquí podrás relejarte en sus cálidas playas, además de poder viajar en lancha para visitar los manglares y humedales de la zona, un excelente lugar para tomar fotos con tu familia y amigos. En las playas de este lugar encontrarás muchos lugares donde disfrutar mariscos recién pescados.
+\n•	Dirección: Carretera Catemaco-Sontecomapan, 95870 Catemaco, Ver.\n
+•	Horario: \n
+•	Abierto las 24 horas\n
+•	Teléfono: 294 145 6339\n
+"/>
+
+    </ScrollView>
+
+</LinearLayout>

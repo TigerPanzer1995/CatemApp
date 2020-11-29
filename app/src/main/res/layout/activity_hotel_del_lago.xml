@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.HotelDelLago">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_del_lago"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hotel_lago"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/el_hotel_del_lago_ofrece_alojamiento_con_aire_acondicionado_en_catemaco_el_establecimiento_cuenta_con_restaurante_recepci_n_24_horas_servicio_de_habitaciones_y_wifi_gratuita_el_hotel_cuenta_con_piscina_cubierta_y_sal_n_compartido_todas_las_habitaciones_incluyen_armario_tv_de_pantalla_plana_y_ba_o_privado_el_hotel_del_lago_sirve_un_desayuno_americano_o_a_la_carta_el_alojamiento_dispone_de_terraza_hablamos_tu_idioma_cambio_de_moneda_necesitas_efectivo_en_el_alojamiento_hay_servicio_de_cambio_de_direcci_n_paseo_del_malec_n_33_centro_95870_catemaco_ver_tel_fono_294_943_0160"/>
+    </ScrollView>
+
+</LinearLayout>

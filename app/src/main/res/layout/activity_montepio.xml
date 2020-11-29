@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".playas.Montepio">
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playa_de_montepio"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/playa_de_montepio"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/es_un_lugar_realmente_paradisiaco_que_se_ha_conservado_virgen_se_ubica_a_39_km_al_norte_de_catemaco_cuenta_con_peque_os_hoteles_caba_as_y_restaurantes_se_puede_practicar_kayak_no_solo_en_la_costa_si_no_tambi_n_puedes_navegar_por_el_rio_m_quina_otras_opciones_son_dar_paseos_en_lancha_escalar_en_roca_en_el_cerro_borrego_y_gozar_de_una_tirolesa_si_te_gusta_la_aventura_puedes_alquilar_una_lancha_para_visitar_la_costa_sur_que_es_bastante_rocosa_y_explorar_algunas_de_las_cuevas_aproximadamente_a_media_hora_de_la_playa_hay_una_cascada_conocida_como_cinco_chorros_que_vale_la_pena_visitar_por_su_belleza_natural_para_llegar_a_la_casada_puedes_alquilar_un_caballo_con_gu_a_en_la_playa_se_recomienda_mucha_precauci_n_al_nadar_en_la_costa_ya_que_no_hay_salvavidas_y_las_corrientes_son_fuertes_por_carretera_a_playa_azul_rumb_a_sontecomapan_la_ruta_m_s_r_pida"/>
+
+    </ScrollView>
+</LinearLayout>

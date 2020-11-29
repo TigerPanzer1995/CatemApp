@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".Sitios">
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/sitios_tur_sticos"
+        android:textSize="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/catemaco_es_una_ciudad_m_gica_con_una_variedad_de_sitios_tur_sticos_que_har_n_de_tu_vista_un_recuerdo_inolvidable_donde_podr_s_reencontrarte_con_la_naturaleza"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btn_nanciyaga"
+   android:layout_margin="10dp"
+    android:text="@string/nanciyaga"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_monos"
+        android:textStyle="bold"
+       android:layout_margin="10dp"
+        android:text="@string/isla_de_los_monos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_jungla"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="@string/la_jungla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_laguna"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="@string/laguna_de_catemaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_sonte"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="@string/sontecomapan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.HotelLaFinca">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/la_finca_hotel"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/la_finca"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/la_finca_hotel_y_spa_situado_en_catemaco_veracruz_ofrece_acceso_directo_a_la_laguna_y_alberga_una_piscina_al_aire_libre_y_un_bar_restaurante_n_tambi_n_cuenta_con_temazcal_y_spa_todas_las_habitaciones_de_la_finca_disponen_de_terraza_con_vistas_al_lago_e_incluyen_tv_por_cable_aire_acondicionado_y_l_nea_telef_nica_el_ba_o_dispone_de_art_culos_de_aseo_y_secador_de_pelo_el_restaurante_la_finca_hotel_y_spa_sirve_platos_t_picos_de_la_zona_de_07_00_a_23_00_mientras_que_el_bar_est_disponible_de_13_00_a_23_00_nel_hotel_proporciona_conexi_n_wi_fi_gratuita_aparcamiento_privado_y_servicio_de_habitaciones_entre_otros_servicios_adem_s_cuenta_con_jardines_y_parque_infantil_la_estaci_n_de_autobuses_ado_queda_a_5_minutos_en_coche_y_la_playa_de_la_barra_a_30_minutos_tambi_n_en_coche_el_centro_de_catemaco_se_halla_a_2_5_km_n_hablamos_tu_idioma_direcci_n_carretera_180_km_147_95870_catemaco_ver_tel_fono_294_947_9700"/>
+    </ScrollView>
+
+</LinearLayout>

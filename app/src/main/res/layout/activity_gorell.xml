@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".restaurantes.Gorell">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurante_palapas_gorell"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/restaurante_palapas_gorell"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/si_tu_visita_a_catemaco_es_de_placer_o_negocios_no_olvides_visitarnos_en_catemaco_para_que_deleites_de_los_ricos_platillos_del_restaurant_palapas_gorell_como_la_pi_a_rellena_de_mariscos_y_los_afrodisiacos_tegogolos_topote_fritos_y_la_rica_minilla_de_anguila_mojarra_al_chile_lim_n_mojarra_al_tachogovi_te_esperamos_a_unos_pasos_de_capitan_a_de_puerto_recuerda_no_somos_los_nicos_pero_si_los_mejores_es_un_lugar_para_pasar_un_buen_rato_con_la_familia_y_los_amigos_buena_comida_y_buen_saz_n_y_m_sica_viva_los_fines_de_semanas_n_consumo_en_el_lugar_para_llevar_direcci_n_paseo_del_malec_n_san_jose_95870_catemaco_ver_horario_s_bado_abierto_las_24_horas_domingo_abierto_las_24_horas_lunes_abierto_las_24_horas_martes_abierto_las_24_horas_mi_rcoles_abierto_las_24_horas_jueves_abierto_las_24_horas_viernes_abierto_las_24_horas"/>
+    </ScrollView>
+
+</LinearLayout>

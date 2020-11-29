@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.HotelPlayaCristal">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_playa_cristal"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hotel_playa"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/el_hotel_playa_cristal_se_encuentra_junto_al_lago_catemaco_y_cuenta_con_piscina_al_aire_libre_conexi_n_wi_fi_gratuita_aparcamiento_gratuito_y_salas_para_banquetes_las_habitaciones_est_n_equipadas_con_aire_acondicionado_tv_por_cable_armario_escritorio_suelo_de_baldosa_y_ba_o_privado_con_ducha_y_art_culos_de_aseo_gratuitos_el_restaurante_del_hotel_playa_cristal_sirve_cocina_tradicional_mexicana_de_07_00_a_23_00_adem_s_encontrar_otros_locales_de_restauraci_n_a_menos_de_1_km_nel_establecimiento_est_a_20_km_de_la_playa_de_barra_del_mar_a_2_horas_en_coche_del_aeropuerto_nacional_de_minatitl_n_y_a_15_minutos_a_pie_del_centro_de_catemaco_que_cuenta_con_zonas_comerciales_y_lugares_de_inter_s_tur_stico_n_hablamos_tu_idioma_direcci_n_av_francisco_i_madero_73_a_santa_rosa_95870_catemaco_ver_tel_fono_294_943_0329"/>
+    </ScrollView>
+
+</LinearLayout>

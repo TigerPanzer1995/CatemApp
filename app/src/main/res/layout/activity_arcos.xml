@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.Arcos">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_los_arcos"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/arcos" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/si_buscas_un_hotel_peque_o_para_familias_en_catemaco_no_te_pierdas_hotel_los_arcos_hotel_los_arcos_es_un_hotel_peque_o_para_familias_con_aire_acondicionado_en_las_habitaciones_y_es_f_cil_permanecer_conectado_durante_la_estancia_ya_que_ofrece_wifi_gratuito_para_los_hu_spedes_el_hotel_peque_o_tiene_recepci_n_abierta_24_horas_conserje_y_servicio_de_habitaciones_adem_s_los_hu_spedes_pueden_disfrutar_de_piscina_lo_que_lo_ha_convertido_en_una_opci_n_popular_entre_los_viajeros_que_visitan_catemaco_para_los_hu_spedes_que_tengan_coche_hay_parking_gratis_disponible_si_buscas_restaurantes_de_marisco_de_calidad_quiz_s_quieras_probar_restaurante_la_ola_o_la_ceiba_mientras_te_alojas_en_hotel_los_arcos_el_personal_de_hotel_los_arcos_est_deseando_atenderte_durante_tu_visita_nhabitaciones_con_un_costo_de_500_pesos_nservicios_del_establecimiento_n_estacionamiento_gratis_n_internet_de_alta_velocidad_gratuito_wifi_n_piscina_n_cafeter_a_n_guarder_a_n_actividades_infantiles_ideal_para_ni_os_familias_n_almacenamiento_de_equipaje_n_conserje_n_caracter_sticas_de_la_habitaci_n_n_aire_acondicionado_n_servicio_de_limpieza_n_servicio_a_la_habitaci_n_n_plancha_n_tipos_de_habitaci_n_n_habitaciones_para_familias_n_es_bueno_saberlo_n_categor_a_del_hotel_n_estilo_del_hotel_n_para_la_familia"/>
+    </ScrollView>
+
+</LinearLayout>

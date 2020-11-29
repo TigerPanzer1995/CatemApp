@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".sitios.Jungla">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Localidad de La Jungla "
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/jungla"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/la_localidad_de_la_jungla_est_situado_en_el_municipio_de_catemaco_en_el_estado_de_veracruz_de_ignacio_de_la_llave_hay_4_habitantes_dentro_de_todos_los_pueblos_del_municipio_ocupa_el_n_mero_184_en_cuanto_a_n_mero_de_habitantes_la_jungla_est_a_342_metros_de_altitud_el_pueblo_de_la_jungla_est_situado_a_5_3_kil_metros_de_catemaco_que_es_la_localidad_m_s_poblada_del_municipio_en_direcci_n_este_si_navegas_por_nuestra_p_gina_web_encontrar_s_adem_s_un_mapa_con_la_ubicaci_n_de_la_jungla"/>
+    </ScrollView>
+
+</LinearLayout>

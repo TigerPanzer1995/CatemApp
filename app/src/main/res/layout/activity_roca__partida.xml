@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".playas.Roca_Partida">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playa_de_roca_partida"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/playa_de_roca_partida"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/es_un_enorme_acantilado_desde_donde_puedes_gozar_de_bellas_vistas_del_golfo_de_m_xico_y_ver_como_se_estrellan_grandes_olas_en_las_verticales_paredes_del_acantilado_es_una_playa_de_regular_oleaje_que_est_considerada_reserva_de_la_biosfera_es_una_playa_virgen_con_pe_ascos_cubiertos_de_verde_follaje_y_rboles_que_crecen_en_forma_horizontal_debido_a_los_fuertes_vientos_una_de_las_actividades_es_que_se_puede_escalar_los_farallones_de_roca_formados_por_el_choque_de_lava_con_el_mar_tambi_n_puedes_practicar_el_kayak_y_hay_tours_en_lancha_en_los_que_se_puede_visitar_la_cueva_del_pirata_lorencillo_que_de_acuerdo_a_la_leyenda_visitaba_la_regi_n_y_ocultaba_sus_tesoros_en_la_cueva_de_la_roca_partida_en_estos_paseos_se_puede_visitar_la_isla_de_los_p_jaros_en_donde_habitan_cientos_de_albatros_y_algunas_aves_de_otras_especies_se_ubica_en_la_zona_costera_de_la_regi_n_de_los_tuxtla_en_la_localidad_de_arroyo_a_130_km_del_puerto_de_veracruz_puedes_llegar_a_este_incre_ble_lugar_despu_s_de_atravesar_la_selva_veracruzana_hay_algunos_restaurantes_caba_as_y_lugares_para_acampar_por_carretera_a_playa_azul_rumb_a_sontecomapan_la_ruta_m_s_r_pida"/>
+
+    </ScrollView>
+</LinearLayout>

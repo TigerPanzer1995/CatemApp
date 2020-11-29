@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".sitios.Isla">
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isla de los monos"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/monos"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/al_pasar_por_el_lugar_el_visitante_podr_observar_a_los_monos_los_cuales_ha_dado_la_vuelta_aportando_una_fuerte_entrada_de_efectivo_para_mucha_de_la_poblaci_n_de_catemaco_notable_obviamente_por_los_muchos_gritones_a_lo_largo_de_la_orilla_de_la_laguna_que_te_invitan_a_tomar_un_paseo_en_lancha_a_pesar_de_estos_gritones_el_paseo_en_lancha_es_una_experiencia_maravillosa_para_considerarse_en_la_laguna_la_vista_de_la_orilla_de_la_ciudad_de_catemaco_y_la_vista_de_las_colinas_volc_nicas_vecinas_del_lago_son_absolutamente_maravillosas"/>
+
+    </ScrollView>
+
+</LinearLayout>

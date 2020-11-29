@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".restaurantes.La_Casita">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurante_la_casita"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/restaurante_la_casita"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/muy_cerca_del_lago_de_catemaco_podr_s_disfrutar_de_lo_mejor_de_la_comida_de_los_tuxtla_mojarras_tegogolos_pellizcadas_anguila_por_mencionar_algunos_platillos_tambi_n_cuenta_con_una_amplia_variedad_de_desayunos_as_que_sin_importar_la_hora_del_d_a_las_puertas_estar_n_abiertas_para_deleitar_tu_paladar_n_consumo_en_el_lugar_n_para_llevar_n_entrega_a_domicilio_n_direcci_n_matamoros_64_centro_95870_catemaco_ver_n_horario_n_cierra_pronto_19_00_horario_de_apertura_dom_10_00_n_tel_fono_294_943_1026"/>
+    </ScrollView>
+
+</LinearLayout>

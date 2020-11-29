@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".sitios.Laguna">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/laguna_de_catemaco"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/laguna_catemaco"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/la_laguna_de_catemaco_tiene_una_extensi_n_de_11km_de_ancho_por_8_de_largo_rodeada_por_exuberante_vegetaci_n_dentro_de_ella_se_encuentran_varias_islas_como_la_de_tanaxpillo_tambi_n_llamada_la_de_los_monos_porque_en_ella_existen_desde_1979_una_colonia_de_macacos_rabones_tra_dos_de_tailandia_y_los_cuales_han_desarrollado_la_habilidad_para_nadar_otra_es_la_de_las_garzas_donde_se_refugian_parvadas_de_distintas_especies_que_sobrevuelan_el_lago_por_ser_esta_zona_un_verdadero_para_so_ha_servido_de_set_cinematogr_fico_de_numerosas_pel_culas_de_corte_internacional"/>
+    </ScrollView>
+
+</LinearLayout>

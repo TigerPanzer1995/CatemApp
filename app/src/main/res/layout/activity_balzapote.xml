@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".playas.Balzapote">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playa_de_balzapote"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/playa_balzapote"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/es_el_nico_puerto_de_los_tuxtla_se_considera_como_una_de_las_mejores_playas_para_nadar_de_los_tuxtla_y_es_una_de_las_m_s_limpias_sin_embargo_hay_que_tener_mucho_cuidado_ya_que_la_playa_tiene_muchas_pozas_de_las_piedras_que_se_han_removido_por_lo_que_no_se_recomienda_para_las_personas_que_no_sepan_nadar_como_peculiaridad_la_parte_sur_de_esta_playa_fue_utilizada_en_la_filmaci_n_de_la_pel_cula_apocalipsis_en_la_secuencia_de_la_llegada_de_los_espa_oles_se_accede_a_la_playa_por_la_carretera_de_catemaco_a_montep_o_no_hay_servicios_tur_sticos_aunque_hay_algunas_casas_que_ofrecen_sus_jardines_para_acampar_por_carretera_a_playa_azul_rumb_a_sontecomapan_la_ruta_m_s_r_pida"/>
+
+    </ScrollView>
+
+</LinearLayout>

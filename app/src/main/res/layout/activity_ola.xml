@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".restaurantes.Ola">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurante_la_ola"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/restaurante_la_ola"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/con_las_t_picas_festividades_jarochas_podr_s_disfrutar_de_la_deliciosa_comida_veracruzana_a_un_lado_de_una_agradable_vista_al_lago_barbacoa_de_camar_n_carne_de_chango_y_lo_que_dicen_que_es_su_invento_una_refrescante_paleta_helada_de_elote_todo_al_ritmo_del_son_jarocho_n_consumo_en_el_lugar_n_para_llevar_n_entrega_a_domicilio_n_direcci_n_playa_centro_95870_catemaco_ver_n_horario_abierto_horario_de_cierre_20_00_tel_fono_294_943_0010"/>
+    </ScrollView>
+</LinearLayout>

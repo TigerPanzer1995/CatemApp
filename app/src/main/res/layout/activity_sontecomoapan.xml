@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".sitios.Sontecomoapan">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sontecomoapan"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sontecomapan"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/lugar_cercano_a_la_laguna_de_catemaco_donde_se_puede_viajar_en_lancha_y_admirar_los_esteros_y_r_os_que_la_nutren_hasta_la_barra_que_separa_el_agua_dulce_del_agua_marina_desde_catemaco_se_puede_viajar_por_una_carretera_asfaltada_a_la_laguna_costera_de_sontecomapan_que_se_encuentra_a_18_kil_metros_en_la_peque_a_poblaci_n_de_sontecomapan_se_puede_tomar_una_embarcaci_n_que_despu_s_de_surcar_bajo_los_manglares_salen_a_la_laguna_el_recorrido_puede_ser_alrededor_de_sta_por_sus_esteros_y_r_os_que_la_nutren_o_llegar_hasta_la_barra_que_separa_el_agua_dulce_del_agua_marina_ah_se_localiza_una_colonia_de_pescadores_una_amplia_playa_y_se_puede_encontrar_alg_n_lugar_para_comer"/>
+    </ScrollView>
+
+</LinearLayout>

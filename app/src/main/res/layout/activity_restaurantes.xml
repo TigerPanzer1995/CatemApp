@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".Restaurantes">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/restaurantes"
+        android:textSize="50dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/en_la_ciudad_de_catemaco_existe_una_gastronom_a_exquista_muy_variada_para_complacer_los_paladares_m_s_exigentes_a_trav_s_de_sus_diversos_diversos_restaurantes_podr_s_conocer_la_mag_a_de_la_gastronomia_de_los_tuxtlas"/>
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btn_resCasita"
+        android:layout_margin="10dp"
+        android:text="@string/restaurante_la_casita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnTierra"
+        android:layout_margin="10dp"
+        android:text="@string/restaurante_tierra_de_tucanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnGorell"
+        android:layout_margin="10dp"
+        android:text="@string/restaurante_palapas_gorell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnOla"
+        android:layout_margin="10dp"
+        android:text="@string/restaurante_la_ola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnSazon"
+        android:layout_margin="10dp"
+        android:text="@string/restaurante_el_saz_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

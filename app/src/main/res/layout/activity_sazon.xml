@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".restaurantes.Sazon">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurante_el_saz_n"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/restaurante_el_sazon"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/restaurante_de_comida_y_mariscos_de_catemaco_productos_tegogolos_memelas_topote_amarillo_momocho_c_cteles_de_camar_n_pulpo_mojarras_camarones_carne_ahumada_carne_de_chango_chagalapoli_cerveza_comida_mariscos_catemaco_n_consumo_en_el_lugar_n_para_llevar_n_entrega_a_domicilio_n_direcci_n_melchor_ocampo_26_san_juan_95870_catemaco_ver_n_horario_abierto_horario_de_cierre_23_00_tel_fono_294_943_2876"/>
+    </ScrollView>
+</LinearLayout>

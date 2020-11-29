@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".sitios.Nanciyaga">
+
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nanciyaga"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/nanciyaga"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/nanciyaga_es_el_lugar_donde_la_selva_est_de_regreso_y_en_donde_confluye_la_selva_tropical_m_s_al_norte_del_continente_americano_con_su_gran_diversidad_en_especies_de_flora_y_fauna_el_lago_y_el_manantial_que_le_dan_vida_al_entorno_hacen_posible_que_el_visitante_en_armon_a_con_la_naturaleza_regrese_a_su_origen_resguardando_el_entorno_y_favoreci_ndolo_a_trav_s_del_turismo_sustentable_la_reserva_ecol_gica_nanciyaga_te_ofrece_una_alternativa_de_descanso_en_medio_de_la_selva_tropical_de_los_tuxtla_en_donde_podr_s_disfrutar_desde_un_recorrido_por_la_selva_un_temazcal_una_cena_rom_ntica_con_vista_al_lago_durante_el_atardecer_y_muchas_m_s_experiencias_nicas"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

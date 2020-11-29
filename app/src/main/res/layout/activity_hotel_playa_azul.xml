@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.HotelPlayaAzul">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_playa_azul"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hotel_playa_azul"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/el_hotel_playa_azul_se_encuentra_en_catemaco_veracruz_y_cuenta_con_piscina_al_aire_libre_y_restaurante_ofrece_conexi_n_wi_fi_gratuita_todas_las_habitaciones_tienen_tv_por_cable_aire_acondicionado_y_zona_de_estar_las_habitaciones_ofrecen_vistas_al_lago_y_al_jard_n_el_hotel_playa_azul_dispone_de_recepci_n_abierta_las_24_horas_y_jard_n_incluye_sal_n_compartido_parque_infantil_y_servicio_de_planchado_el_aparcamiento_es_gratuito_el_centro_de_la_ciudad_de_catemaco_est_a_5_minutos_en_coche_n_hablamos_tu_idioma_direcci_n_carretera_a_sontecomapan_km_2_centro_95870_catemaco_ver_tel_fono_294_943_2618"/>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".hoteles.HotelDelAngel">
+    <include
+        layout="@layout/main_toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotel_del_angel"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hotel_angel" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/el_hotel_del_ngel_es_un_establecimiento_de_3_estrellas_situado_en_catemaco_n_este_hotel_de_3_estrellas_cuenta_con_terraza_y_habitaciones_con_aire_acondicionado_y_ba_o_privado_cuenta_con_piscina_al_aire_libre_conexi_n_wi_fi_gratuita_y_aparcamiento_privado_gratuito_ntodas_las_habitaciones_del_hotel_est_n_equipadas_con_tv_el_personal_de_la_recepci_n_24_horas_habla_ingl_s_y_espa_ol_el_hotel_del_ngel_se_encuentra_en_catemaco_a_0_5_km_de_reserva_ecol_gica_benito_ju_rez_y_ofrece_una_piscina_el_hotel_consta_de_76_habitaciones_climatizada_a_los_hu_spedes_les_gustar_la_cercan_a_a_nanciyaga_que_est_a_500_metros_el_centro_de_la_ciudad_est_a_1_km_de_la_propiedad_n_est_a_un_corto_paseo_de_laguna_catemaco_y_bas_lica_de_la_virgen_del_carmen_este_alojamiento_cuenta_con_un_mini_bar_climatizaci_n_y_una_cocina_en_las_habitaciones_una_ducha_y_toallas_de_ba_o_est_n_disponibles_en_los_ba_os_privados_la_nuez_panader_a_y_pasteler_a_la_caba_a_del_lago_y_loncher_a_mingo_se_encuentran_cerca_el_hotel_dispone_de_aparcamiento_gratuito_y_parking_privado"/>
+    </ScrollView>
+
+</LinearLayout>

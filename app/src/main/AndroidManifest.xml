@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catemapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hoteles.Arcos"></activity>
+        <activity android:name=".playas.Roca_Partida" />
+        <activity android:name=".playas.Balzapote" />
+        <activity android:name=".playas.Playa_Escondida" />
+        <activity android:name=".playas.La_Barra" />
+        <activity android:name=".playas.Montepio" />
+        <activity android:name=".Paseo" />
+        <activity android:name=".Mapa" />
+        <activity android:name=".restaurantes.Tierra" />
+        <activity android:name=".restaurantes.Ola" />
+        <activity android:name=".restaurantes.Sazon" />
+        <activity android:name=".restaurantes.Gorell" />
+        <activity android:name=".restaurantes.La_Casita" />
+        <activity android:name=".Restaurantes" />
+        <activity android:name=".hoteles.HotelDelAngel" />
+        <activity android:name=".hoteles.HotelPlayaAzul" />
+        <activity android:name=".hoteles.HotelPlayaCristal" />
+        <activity android:name=".hoteles.HotelLaFinca" />
+        <activity android:name=".hoteles.HotelDelLago" />
+        <activity android:name=".sitios.Jungla" />
+        <activity android:name=".sitios.Laguna" />
+        <activity android:name=".sitios.Isla" />
+        <activity android:name=".sitios.Sontecomoapan" />
+        <activity android:name=".sitios.Nanciyaga" />
+        <activity android:name=".Hotel" />
+        <activity android:name=".Playas" />
+        <activity android:name=".Sitios" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
