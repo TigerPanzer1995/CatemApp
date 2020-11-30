@@ -18,9 +18,10 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        ImageView pescador = findViewById(R.id.idPescador);
-        pescador.setOnClickListener(this);
-    }
+        ImageView acerca= findViewById(R.id.imv_acerca);
+        acerca.setOnClickListener(this);
+
+    }//fin del oncreate
     public void ClickSitios (View view) {
     intent = new Intent(getApplicationContext(),Sitios.class);
     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -81,14 +82,15 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        Intent intent1 = new Intent(Intent.ACTION_VIEW);
         switch (view.getId()){
-            case R.id.idPescador:
-                intent1.setData(Uri.parse(video));
-                startActivity(intent1);
+            case R.id.imv_acerca:
+                intent = new Intent(getApplicationContext(), Acerca.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
                 break;
+        }
 
         }
 
-    }
+
 }//fin de la clase

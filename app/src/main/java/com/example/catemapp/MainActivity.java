@@ -38,10 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent= new Intent(MainActivity.this, Home.class);
                 startActivity(intent);
                 finish();
-                Toast.makeText(MainActivity.this, "Da click a la imagen del pesacador para un vídeo", Toast.LENGTH_LONG).show();
 
 
             }
         },4000);
-    }
+    }//fin del oncreate
 }

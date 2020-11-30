@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hoteles.Arcos"></activity>
+        <activity android:name=".Acerca"></activity>
+        <activity android:name=".hoteles.Arcos" />
         <activity android:name=".playas.Roca_Partida" />
         <activity android:name=".playas.Balzapote" />
         <activity android:name=".playas.Playa_Escondida" />
